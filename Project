@@ -38,6 +38,7 @@
     <li><input type="radio" id="rd1" name="rd">Se permite numai la axa din faţă.</li>
     <li><input type="radio" id="rd2" name="rd"> Se permite numai la axa din spate.</li>
     <li><input type="radio" id="rd3" name="rd"> Nu se permite.</li>
+    <li><input type="radio" id="rd4" name="rd"> Hello</li>
 </ul>  
 
 </div>
