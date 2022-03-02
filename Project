@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Laborator 9
+        </title>
+    </head>
+    <body>
+        
+        <form action="" method="post">
+            Nume    <input type="text" id="txt1" placeholder="Introduceti numele">
+           <br> Prenume <input type="text" id="txt2" placeholder="introduceti prenume">
+            <br>Telefon <input type="tel"  id="tel1" placeholder="Introduceti telefonul">
+           <br> E-mail  <input type="email" id="em1" placeholder="">
+            <h2>Rezolvati testul!</h2>
+            <div>
+                Conducătorul de vehicul este obligat: <br>
+                <ul>
+                    <li><input type="radio" id="rd1" name="rd">1. Să se supună la solicitarea polițistului, procedurii de testare a aerului expirat sau examenului medical în vederea constatării alcoolemiei.</li>
+                    <li><input type="radio" id="rd2" name="rd">2. La solicitarea polițiștilor să asigure transportarea lor la locul de serviciu.</li>
+                    <li><input type="radio" id="rd3" name="rd">3. Să poarte vesta de protecţie-avertizare fluorescent-reflectorizantă în timpul deplasării pe drumurile din localităţi.</li>
+                </ul>
+                <br>Căror vehicule le este permisă deplasarea pe banda de circulaţie extremă dreapta?
+<ul>
+    <li><input type="checkbox" id="ch1" name="ch1">Numai autobuzelor.</li>
+    <li><input type="checkbox" id="ch1" name="ch2"> Autobuzelor şi autoturismelor.</li>
+    <li><input type="checkbox" id="ch1" name="ch3">Camioanelor destinate transportării de persoane.</li>
+    <li><input type="checkbox" id="ch1" name="ch4">Vehiculelor de rută.</li>
+</ul>
+<br>Precizaţi dacă se permite staţionarea vehiculelor pe drumurile publice cu o lăţime a carosabilului mai mică de 6 m?
+            <ul>
+                <li><input type="checkbox" id="ch1" name="ch1">Se permite fără restricţii.</li>
+                <li><input type="checkbox" id="ch2" name="ch2">Se permite numai pe sectoarele de drum cu vizibilitatea, în ambele sensuri, mai mare de 100 m.</li>
+                <li><input type="checkbox" id="ch3" name="ch2"> Nu se permite.</li>
+            </ul>  
+<br>Precizaţi dacă se permite echiparea roţilor aceleiaşi axe cu pneuri avînd modelul profilului benzii de rulare diferit?
+<ul>
+    <li><input type="radio" id="rd1" name="rd">Se permite numai la axa din faţă.</li>
+    <li><input type="radio" id="rd2" name="rd"> Se permite numai la axa din spate.</li>
+    <li><input type="radio" id="rd3" name="rd"> Nu se permite.</li>
+</ul>  
+
+</div>
+
+   <br> Data <input type="date">
+   <br><br>
+   Atasati un file <input type="file">
+   <br><br>
+   <style>
+    .container
+    {
+      overflow: scroll;
+      width: 70px;
+    }
+  </style>
+
+  <div class="container" >
+  Acest continut este confidential!
+  </div>
+  <input type="submit" id="sub" name="sub">
+        </form>
+        
+    </body>
+</html>
