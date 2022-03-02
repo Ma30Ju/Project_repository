@@ -40,7 +40,7 @@
     <li><input type="radio" id="rd3" name="rd"> Nu se permite.</li>
     <li><input type="radio" id="rd4" name="rd"> Hello</li>
 </ul>  
-
+Astazi este 2 martie!
 </div>
 
    <br> Data <input type="date">
